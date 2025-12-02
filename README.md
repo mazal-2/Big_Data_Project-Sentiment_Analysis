@@ -2,7 +2,7 @@
 
 ## 项目来源
 
-本项目中爬虫程序基于[EastMoney_Crawler](https://github.com/zcyeee/EastMoney_Crawler.gi)进行了优化，原项目由[原作者]开发，采用MIT许可证。
+本项目中爬虫程序基于[EastMoney_Crawler](https://github.com/zcyeee/EastMoney_Crawler.gi)进行了优化，原项目由[zcyeee]开发，采用MIT许可证。
 
 ### 主要改进
 - 优化了请求频率，将每页访问频率设定如下，能有效避免东方财富反扒机制带来的身份核验
@@ -20,7 +20,9 @@
                 if len(cache) >= CACHE_SIZE:
                     postdb.insert_many(cache) # 减少访问频率，除此之外无变化
                     cache = []
-————————————————————————————————————————————————————————————————分界线————————————————————————————————————————————————————————————————————————
+
+**分界线**
+
 **项目介绍**
 
 一 研究问题
